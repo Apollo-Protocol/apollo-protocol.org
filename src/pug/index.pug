@@ -36,34 +36,37 @@ html(lang='en')
                 .row.justify-content-center
                     .col-xl-6
                         .text-center.text-white
-                            p Test
-                            img.mb-5(src='assets/img/apollo.png', alt='...')
+                            img.mb-5.mt-5(src='assets/img/apollo.png', alt='...')
 
         // Icons Grid
-        section.features-icons.bg-light.text-center
+        section.features-icons.text-center
             .container
                 .row
                     .col-lg-4
                         .features-icons-item.mx-auto.mb-5.mb-lg-0.mb-lg-3
                             .features-icons-icon.d-flex
-                                i.bi-window.m-auto.text-primary
+                                i.bi-file-richtext.m-auto.text-primary
                             h3 Position Piece
-                            p.lead This theme will look great on any device, no matter the size!
-                            a.btn.btn-primary(href='#!') Download
+                            p.lead The Apollo Protocol: unifying digital twins across sectors, the paper that launched the initiative
                     .col-lg-4
                         .features-icons-item.mx-auto.mb-5.mb-lg-0.mb-lg-3
                             .features-icons-icon.d-flex
-                                i.bi-layers.m-auto.text-primary
+                                i.bi-diagram-3.m-auto.text-primary
                             h3 DTHub
                             p.lead Join the growing network on the Digital Twin Hub
-                            a.btn.btn-primary(href='#!') Join
                     .col-lg-4
                         .features-icons-item.mx-auto.mb-0.mb-lg-3
                             .features-icons-icon.d-flex
-                                i.bi-terminal.m-auto.text-primary
+                                i.bi-wrench.m-auto.text-primary
                             h3 Activity Modeller
-                            p.lead Ready to use with your own content, or customize the source files!
-                            a.btn.btn-primary(href='#!') Visit
+                            p.lead Learn and practice planning in a new way. Helping you discover all the information you need for complete decision making and resource planning.
+                .row
+                    .col-lg-4
+                        a.btn.btn-primary(href='https://www.theiet.org/impact-society/factfiles/built-environment-factfiles/the-apollo-protocol-unifying-digital-twins-across-sectors/') Download
+                    .col-lg-4
+                        a.btn.btn-primary(href='#!') Join
+                    .col-lg-4
+                        a.btn.btn-primary(href='https://apollo-protocol.github.io/4d-activity-editor/') Visit
 
         // Footer
         footer.footer.bg-light
@@ -72,25 +75,16 @@ html(lang='en')
                     .col-lg-6.h-100.text-center.text-lg-start.my-auto
                         ul.list-inline.mb-2
                             li.list-inline-item
-                                a(href='#!') About
-                            li.list-inline-item ⋅
-                            li.list-inline-item
                                 a(href='#!') Terms of Use
-                            li.list-inline-item ⋅
-                            li.list-inline-item
-                                a(href='#!') Privacy Policy
-                        p.text-muted.small.mb-4.mb-lg-0 &copy; Your Website 2023. All Rights Reserved.
+                            //- li.list-inline-item ⋅
+                            //- li.list-inline-item
+                            //-     a(href='#!') Privacy Policy
+                        p.text-muted.small.mb-4.mb-lg-0 &copy; Apollo Protocol 2023. All Rights Reserved.
                     .col-lg-6.h-100.text-center.text-lg-end.my-auto
-                        ul.list-inline.mb-0
-                            li.list-inline-item.me-4
-                                a(href='#!')
-                                    i.bi-facebook.fs-3
-                            li.list-inline-item.me-4
-                                a(href='#!')
-                                    i.bi-twitter.fs-3
-                            li.list-inline-item
-                                a(href='#!')
-                                    i.bi-instagram.fs-3
+                        //- ul.list-inline.mb-0
+                        //-     li.list-inline-item.me-4
+                        //-         a(href='#!')
+                        //-             i.bi-facebook.fs-3
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
